@@ -1,47 +1,6 @@
 <?php
 
 class Mahasiswa_model{
-    // private $mhs =[
-    //     [
-    //     "nama" => "Lely Butarbutar",
-    //     "nim" => "13323050",
-    //     "email" => "lely@gmail.com",
-    //     "prodi" => "Teknologi Komputer"
-    // ],
-    // [
-    //     "nama" => "Tanisha Aritonang",
-    //     "nim" => "13323046",
-    //     "email" => "tanis@gmail.com",
-    //     "prodi" => "Teknologi Komputer"
-    // ],
-    // [
-    //     "nama" => "Grace Nainggolan",
-    //     "nim" => "13323049",
-    //     "email" => "geres@gmail.com",
-    //     "prodi" => "Teknologi Komputer"
-    // ],
-    // [
-    //     "nama" => "Enjelita Sitorus",
-    //     "nim" => "13323023",
-    //     "email" => "enjel@gmail.com",
-    //     "prodi" => "Teknologi Komputer"
-    // ]
-    // ];
-
-    // private $dbh;
-    // private $stmt;
-
-    // public function __construct(){
-    //     // data source
-    //     $dsn = 'mysql:host=localhost;dbname=phpmvc';
-
-    //     try{
-    //         $this->dbh = new PDO($dsn, 'rott', 'root');
-    //     } catch(PDOException $e){
-    //         die($e->getMessage());
-    //     }
-    // }
-
     private $table = 'mahasiswa';
     private $db;
 

@@ -9,7 +9,7 @@ membuka console.log dari ubah  dengan warningnya "script.js:20  Uncaught TypeErr
     at v.handle (jquery-3.3.1.slim.min.js:2:39983)
    $.ajax({",  Kesalahan menunjukkan bahwa fungsi $.ajax() tidak ditemukan. Ini menandakan bahwa jQuery mungkin tidak 
     dimuat dengan benar dan agar hal itu tidak terjadi lagi akhirnya saya menggunakan  CDN yang menyediakan versi lengkap-->
-<script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+<script src="http://localhost/PABI/w12/OOP-menggunakan-PHP/phpmvc/public/js/bootstrap.js"></script>
 
 
 
